@@ -1,0 +1,43 @@
+.showcase {
+	background: url('/images/showcase.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 75vh;
+}
+
+.btn-primary {
+	background: #1c405a !important;
+	border: none;
+}
+
+.text-primary {
+	color: #1c405a !important;
+}
+
+.bg-light {
+	background: #e5e5e5 !important;
+}
+
+.lead {
+	font-size: 22px;
+}
+
+.card {
+	margin-top: -200px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+	.showcase {
+		height: 50vh;
+	}
+	.d-flex {
+		flex-direction: column;
+	}
+
+	.d-flex input {
+		margin-bottom: 10px;
+	}
+}
