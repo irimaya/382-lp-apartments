@@ -7,7 +7,7 @@
 }
 
 .btn-primary {
-	background: #1c405a !important;
+	background: #1c405a;
 	border: none;
 }
 
@@ -15,17 +15,13 @@
 	color: #1c405a !important;
 }
 
-.bg-light {
-	background: #e5e5e5 !important;
-}
-
 .lead {
 	font-size: 22px;
 }
 
 .card {
-	margin-top: -200px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: -200px;
 }
 
 /* Mobile */
